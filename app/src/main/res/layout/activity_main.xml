@@ -39,44 +39,48 @@
                 <Button
                     android:id="@+id/dec_color"
                     android:layout_width="1dp"
-                    android:layout_height="80dp"
+                    android:layout_height="62dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="6dp"
                     android:layout_marginBottom="10dp"
                     android:layout_weight="1"
+                    android:background="#121212"
                     android:clickable="false"
                     android:text="@string/empty" />
 
                 <Button
                     android:id="@+id/unit_color"
                     android:layout_width="1dp"
-                    android:layout_height="79dp"
+                    android:layout_height="62dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginRight="6dp"
                     android:layout_weight="1"
+                    android:background="#000000"
                     android:clickable="false"
                     android:text="@string/empty" />
 
                 <Button
                     android:id="@+id/mult_color"
                     android:layout_width="1dp"
-                    android:layout_height="80dp"
+                    android:layout_height="63dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginTop="6dp"
                     android:layout_marginRight="6dp"
                     android:layout_marginBottom="6dp"
                     android:layout_weight="1"
+                    android:background="#000000"
                     android:clickable="false"
                     android:text="@string/empty" />
 
                 <Button
                     android:id="@+id/tol_color"
                     android:layout_width="1dp"
-                    android:layout_height="80dp"
+                    android:layout_height="63dp"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
+                    android:background="#000000"
                     android:clickable="false"
                     android:text="@string/empty" />
 
