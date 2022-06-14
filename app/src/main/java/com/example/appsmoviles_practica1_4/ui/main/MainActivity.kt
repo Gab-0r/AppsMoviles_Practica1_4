@@ -1,4 +1,4 @@
-package com.example.appsmoviles_practica1_4
+package com.example.appsmoviles_practica1_4.ui.main
 
 import android.app.Activity
 import android.graphics.Color
