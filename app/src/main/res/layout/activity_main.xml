@@ -38,6 +38,7 @@
 
                 <Button
                     android:id="@+id/dec_color"
+                    style="@style/Widget.AppCompat.Button.Colored"
                     android:layout_width="1dp"
                     android:layout_height="62dp"
                     android:layout_gravity="center_vertical"
@@ -46,9 +47,10 @@
                     android:layout_marginRight="6dp"
                     android:layout_marginBottom="10dp"
                     android:layout_weight="1"
-                    android:background="#121212"
-                    android:clickable="false"
-                    android:text="@string/empty" />
+                    android:background="#000000"
+                    android:hapticFeedbackEnabled="false"
+                    android:text="@string/empty"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/unit_color"
